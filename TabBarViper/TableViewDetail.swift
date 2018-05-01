@@ -21,7 +21,6 @@ class TableViewDetail : UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print(detailDescription)
         textViewOutlet.text = detailDescription
     }
     
